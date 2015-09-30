@@ -16,7 +16,7 @@ namespace _07.Directory_Traversal
 		static void Traverse(string path, int tab)
 		{
 			var tabs = new string('|', tab*2);
-
+			
 			Console.WriteLine($"{tabs}{path}");
 			var files = Directory.GetFiles(path);
 			var dirs = Directory.GetDirectories(path);
