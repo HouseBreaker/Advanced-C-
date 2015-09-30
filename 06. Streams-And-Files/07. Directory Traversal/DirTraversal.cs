@@ -1,46 +1,37 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace _07.Directory_Traversal
+internal class DirectoryTraversal
 {
-	class DirTraversal
+	static void Main()
 	{
-		const string Path = @"..\..\";
+		string[] filePaths = Directory.GetFiles(@"../../");
 
-        static void Main()
-        {
-	        Traverse(Path, 0);
-		}
+		List<FileInfo> files = filePaths.Select(path => new FileInfo(path)).ToList();
 
-		static void Traverse(string path, int tab)
+		var sorted = files
+			.OrderBy(file => file.Length)
+			.GroupBy(file => file.Extension)
+			.OrderByDescending(group => group.Count())
+			.ThenBy(group => group.Key);
+
+		string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+
+		using (var writer = new StreamWriter(desktopPath + "/report.txt"))
 		{
-			var tabs = new string('|', tab*2);
-			
-			Console.WriteLine($"{tabs}{path}");
-			var files = Directory.GetFiles(path);
-			var dirs = Directory.GetDirectories(path);
-
-			if (dirs.Length == 0 && files.Length == 0)
+			foreach (var group in sorted)
 			{
-				//Console.WriteLine("empty dir, going back!");
-				Console.WriteLine();
-				tab--;
-				return;
-			}
+				writer.WriteLine(group.Key);
 
-			if (files.Length > 0)
-			{
-				Console.WriteLine(tabs + string.Join($"\n{tabs}", files));
-				Console.WriteLine();
+				foreach (var y in group)
+				{
+					writer.WriteLine("--{0} - {1:F3}kb", y.Name, y.Length / 1024.0);
+				}
 			}
-			
-			var subdirs = Directory.GetDirectories(path);
-
-			//foreach (var subdir in subdirs)
-			//{
-			//	Traverse(subdir, tab+1);
-			//}
 		}
+
+		System.Diagnostics.Process.Start(desktopPath + "/report.txt");
 	}
 }
