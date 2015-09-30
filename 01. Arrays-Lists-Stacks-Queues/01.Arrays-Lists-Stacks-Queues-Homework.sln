@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Sort Array Of Numbers", "01. Sort Array Of Numbers\01. Sort Array Of Numbers.csproj", "{56A0145F-DF7A-4929-9246-AFBB98B0B402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Selection Sort", "02. Selection Sort\02. Selection Sort.csproj", "{9F0FE862-23B3-470F-B33D-509E76AD1AC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Categorize Numbers and Find Min Max Average", "03. Categorize Numbers and Find Min Max Average\03. Categorize Numbers and Find Min Max Average.csproj", "{668E27A0-2F97-46D3-B8D7-E78252CA24CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Sentences Of Equal Strings", "04. Sentences Of Equal Strings\04. Sentences Of Equal Strings.csproj", "{94BA477A-4F2A-490C-B487-9B9AF29AA666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Longest Increasing Sequence", "05. Longest Increasing Sequence\05. Longest Increasing Sequence.csproj", "{D8EF31BE-E489-4095-9A6F-6E459F1ED9F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Lego Blocks", "08. Lego Blocks\08. Lego Blocks.csproj", "{1A1DE2D6-BB2F-4264-85B1-607CE5671F69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Subset Sums", "06. Subset Sums\06. Subset Sums.csproj", "{DDD89D1E-5A95-4CBD-BC37-B669231FEEFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56A0145F-DF7A-4929-9246-AFBB98B0B402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56A0145F-DF7A-4929-9246-AFBB98B0B402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56A0145F-DF7A-4929-9246-AFBB98B0B402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56A0145F-DF7A-4929-9246-AFBB98B0B402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F0FE862-23B3-470F-B33D-509E76AD1AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F0FE862-23B3-470F-B33D-509E76AD1AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F0FE862-23B3-470F-B33D-509E76AD1AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F0FE862-23B3-470F-B33D-509E76AD1AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{668E27A0-2F97-46D3-B8D7-E78252CA24CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{668E27A0-2F97-46D3-B8D7-E78252CA24CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{668E27A0-2F97-46D3-B8D7-E78252CA24CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{668E27A0-2F97-46D3-B8D7-E78252CA24CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94BA477A-4F2A-490C-B487-9B9AF29AA666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BA477A-4F2A-490C-B487-9B9AF29AA666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BA477A-4F2A-490C-B487-9B9AF29AA666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BA477A-4F2A-490C-B487-9B9AF29AA666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8EF31BE-E489-4095-9A6F-6E459F1ED9F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8EF31BE-E489-4095-9A6F-6E459F1ED9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8EF31BE-E489-4095-9A6F-6E459F1ED9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8EF31BE-E489-4095-9A6F-6E459F1ED9F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1DE2D6-BB2F-4264-85B1-607CE5671F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1DE2D6-BB2F-4264-85B1-607CE5671F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1DE2D6-BB2F-4264-85B1-607CE5671F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1DE2D6-BB2F-4264-85B1-607CE5671F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDD89D1E-5A95-4CBD-BC37-B669231FEEFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDD89D1E-5A95-4CBD-BC37-B669231FEEFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDD89D1E-5A95-4CBD-BC37-B669231FEEFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDD89D1E-5A95-4CBD-BC37-B669231FEEFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
