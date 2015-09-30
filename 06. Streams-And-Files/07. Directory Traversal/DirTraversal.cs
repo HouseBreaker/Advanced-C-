@@ -37,10 +37,10 @@ namespace _07.Directory_Traversal
 			
 			var subdirs = Directory.GetDirectories(path);
 
-			foreach (var subdir in subdirs)
-			{
-				Traverse(subdir, tab+1);
-			}
+			//foreach (var subdir in subdirs)
+			//{
+			//	Traverse(subdir, tab+1);
+			//}
 		}
 	}
 }
