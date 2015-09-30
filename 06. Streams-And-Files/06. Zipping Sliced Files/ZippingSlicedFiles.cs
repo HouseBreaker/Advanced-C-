@@ -13,45 +13,10 @@ namespace _06.Zipping_Sliced_Files
 		const int Parts = 5;
 		static List<string> files;
 
-		static void Main()
+		private static void Main()
 		{
 			SplitFiles(Parts, InputFile, OutputFolder);
 			AssembleFiles();
-		}
-
-		static void AssembleFiles()
-		{
-			var outputFile = $"{OutputFolder}{Path.GetFileName(InputFile)}";
-
-			if (File.Exists(outputFile))
-				File.Delete(outputFile);
-
-
-			using (var destination = new FileStream(outputFile, FileMode.Append))
-			{
-				foreach (string file in files)
-				{
-					using (var source = new FileStream(file, FileMode.Open))
-					{
-						var buffer = new byte[4096];
-
-						while (true)
-						{
-							using (var gzipStream = new GZipStream(source, CompressionMode.Decompress, false))
-							{
-								int readBytes = gzipStream.Read(buffer, 0, buffer.Length);
-
-								if (readBytes == 0)
-								{
-									break;
-								}
-
-								destination.Write(buffer, 0, readBytes);
-							}
-						}
-					}
-				}
-			}
 		}
 
 		static void SplitFiles(int parts, string inputFile, string outputFolder)
@@ -84,6 +49,40 @@ namespace _06.Zipping_Sliced_Files
 			}
 
 			Console.WriteLine("Done! Files written at " + Path.GetFullPath(outputFolder));
+		}
+
+		static void AssembleFiles()
+		{
+			var outputFile = $"{OutputFolder}{Path.GetFileName(InputFile)}";
+
+			if (File.Exists(outputFile))
+				File.Delete(outputFile);
+
+			using (var destination = new FileStream(outputFile, FileMode.Append))
+			{
+				foreach (var file in files)
+				{
+					using (var source = new FileStream(file, FileMode.Open))
+					{
+						using (var gZip = new GZipStream(source, CompressionMode.Decompress))
+						{
+							var buffer = new byte[file.Length];
+
+							while (true)
+							{
+								int readBytes = gZip.Read(buffer, 0, buffer.Length);
+
+								if (readBytes == 0)
+								{
+									break;
+								}
+
+								destination.Write(buffer, 0, readBytes);
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 }
