@@ -23,7 +23,7 @@ namespace _07.Directory_Traversal
 
 			if (dirs.Length == 0 && files.Length == 0)
 			{
-				Console.WriteLine("empty dir, going back!");
+				//Console.WriteLine("empty dir, going back!");
 				Console.WriteLine();
 				tab--;
 				return;
