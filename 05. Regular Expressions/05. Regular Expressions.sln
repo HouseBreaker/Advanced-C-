@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Series of Letters", "1. Series of Letters\1. Series of Letters.csproj", "{45BBD1EA-1756-47AD-A46B-E74CD808F58A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Series of Letters", "01. Series of Letters\01. Series of Letters.csproj", "{45BBD1EA-1756-47AD-A46B-E74CD808F58A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Replace a tag", "2. Replace a tag\2. Replace a tag.csproj", "{C5509CD2-834E-42E4-9CD8-40C386CD12DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Replace a tag", "02. Replace a tag\02. Replace a tag.csproj", "{C5509CD2-834E-42E4-9CD8-40C386CD12DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Extract Emails", "3. Extract Emails\3. Extract Emails.csproj", "{01839F0B-94D9-4499-AEFD-375CCBE369CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Extract Emails", "03. Extract Emails\03. Extract Emails.csproj", "{01839F0B-94D9-4499-AEFD-375CCBE369CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Sentence Extractor", "4. Sentence Extractor\4. Sentence Extractor.csproj", "{26B95BC9-606A-454B-B666-0A004D8FC905}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Sentence Extractor", "04. Sentence Extractor\04. Sentence Extractor.csproj", "{26B95BC9-606A-454B-B666-0A004D8FC905}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Valid Usernames (star)", "5. Valid Usernames\5. Valid Usernames (star).csproj", "{20F9D5B1-14A0-412D-AE65-FFA7273098F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Valid Usernames (star)", "05. Valid Usernames\05. Valid Usernames (star).csproj", "{20F9D5B1-14A0-412D-AE65-FFA7273098F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Extract Hyperlinks (star star)", "6. Extract Hyperlinks (star star)\6. Extract Hyperlinks (star star).csproj", "{C3CB6515-62C6-4764-A2D3-6AFC442D4446}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Extract Hyperlinks (star star)", "06. Extract Hyperlinks (star star)\06. Extract Hyperlinks (star star).csproj", "{C3CB6515-62C6-4764-A2D3-6AFC442D4446}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise", "Exercise\Exercise.csproj", "{A6E8B164-934F-49C8-983C-680C6AD16F08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. Chains (star)", "8. Chains\8. Chains (star).csproj", "{23FC22A7-4EAD-4F4C-B05B-70E2760C6039}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Chains (star)", "08. Chains\08. Chains (star).csproj", "{23FC22A7-4EAD-4F4C-B05B-70E2760C6039}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
