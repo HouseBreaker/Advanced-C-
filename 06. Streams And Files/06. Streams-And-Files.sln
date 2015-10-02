@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Slicing File", "05. Sli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Zipping Sliced Files", "06. Zipping Sliced Files\06. Zipping Sliced Files.csproj", "{9BAED03B-A111-4F6C-AE97-72380955D369}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Directory Traversal", "07. Directory Traversal\07. Directory Traversal.csproj", "{4ED51AFA-18F3-4B92-9516-3415D9C0A710}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-08. Directory Traversal", "07. Directory Traversal\07-08. Directory Traversal.csproj", "{4ED51AFA-18F3-4B92-9516-3415D9C0A710}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
