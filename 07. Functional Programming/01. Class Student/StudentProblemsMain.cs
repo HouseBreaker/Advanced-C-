@@ -12,8 +12,8 @@ namespace _01.Class_Student
 			{
 				new Student("Sara",    "Mills",     "+359 2885934", "smills0@marketwatch.com", 21, 203314, 2, new List<int>() {2, 3, 4, 5, 2, 6, 4, 5, 3, 4}),
 				new Student("Daniel",  "Carter",    "028385934",    "dcarter1@buzzfeed.com",   22, 203315, 1, new List<int>() {4, 5, 4, 4, 6, 6, 4, 5, 4, 4}),
-				new Student("Aaron",   "Gibson",    "+3592885934",  "agibson2@house.gov",      19, 203314, 3, new List<int>() {3, 3, 5, 5, 4, 5, 4, 3, 2, 3} ),
-				new Student("William", "Alexander", "028485934",    "walexander3@abv.bg",      24, 203315, 2, new List<int>() {4, 6, 3, 2, 6, 6, 6, 3, 4, 5} ),
+				new Student("Aaron",   "Gibson",    "+3592885934",  "agibson2@house.gov",      19, 203314, 3, new List<int>() {3, 3, 5, 5, 4, 5, 4, 3, 2, 3}),
+				new Student("William", "Alexander", "028485934",    "walexander3@abv.bg",      24, 203315, 2, new List<int>() {4, 6, 3, 2, 6, 6, 6, 3, 4, 5}),
 				new Student("Mildred", "Hansen",    "02885934",     "mhansen4@abv.bg",         35, 203415, 3, new List<int>() {4, 4, 4, 2, 3, 6, 3, 6, 2, 2})
 			};
 			
