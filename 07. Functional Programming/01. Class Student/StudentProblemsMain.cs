@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace _01.Class_Student
 {
-	class ClassStudent
+	class StudentProblemsMain
 	{
 		static void Main()
 		{
