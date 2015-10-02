@@ -107,5 +107,12 @@ namespace _01.Class_Student
 				throw new ArgumentOutOfRangeException(nameof(input), $"{prop} field must not be empty.");
 			}
 		}
+
+		public override string ToString()
+		{
+			var output = "";
+			output = $"{FirstName} {LastName} - {Age} years old, Phone: {Phone}, Email: {Email}, Faculty #: {FacultyNumber}, Group #: {GroupNumber}, Marks: {string.Join(", ", Marks)}";
+			return output;
+		}
 	}
 }
